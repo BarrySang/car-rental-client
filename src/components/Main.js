@@ -10,9 +10,7 @@ class Main extends React.Component {
         }
 
         return (
-            <div className="container">
-                <Layout Content={Content}></Layout>
-            </div>
+            <Layout Content={Content}></Layout>
         )
     }
 }
